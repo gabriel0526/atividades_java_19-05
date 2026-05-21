@@ -3,7 +3,10 @@ package ex17;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Pessoa p = new Pessoa("Gabriel", 20);
+        System.out.println("Idade atual: " + p.idade);
+        p.fazerAniversario();
+        System.out.println("Nova idade: " + p.idade);
 
 	}
 

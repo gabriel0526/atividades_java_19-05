@@ -3,7 +3,8 @@ package ex20;
 public class main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Triangulo t = new Triangulo(6, 4);
+        System.out.println("Área: " + t.calcularArea());
 
 	}
 
